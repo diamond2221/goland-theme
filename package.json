@@ -1,9 +1,9 @@
 {
-    "name": "goland-darcula-theme",
-    "displayName": "Goland Darcula Theme",
-    "description": "一款高度还原 JetBrains Goland Darcula 深色配色风格的 VS Code 主题，支持 Go、TypeScript、JavaScript、Java、HTML、CSS/SCSS/Less、Vue、JSON、React (JSX/TSX) 的全面语法高亮。",
+    "name": "goland-dark-theme",
+    "displayName": "Goland Dark Theme",
+    "description": "一款高度还原 JetBrains Goland Dark 深色配色风格的 VS Code 主题，支持 Go、TypeScript、JavaScript、Java、HTML、CSS/SCSS/Less、Vue、JSON、React (JSX/TSX) 的全面语法高亮。",
     "author": "diamond2221",
-    "repository": "https://github.com/diamond2221/goland-darcula-theme",
+    "repository": "https://github.com/diamond2221/goland-dark-theme",
     "version": "1.0.0",
     "publisher": "diamond2221",
     "engines": {
@@ -15,7 +15,6 @@
     ],
     "keywords": [
         "goland",
-        "darcula",
         "dark",
         "theme",
         "jetbrains",
@@ -36,9 +35,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Goland Darcula Theme",
+                "label": "Goland Dark Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/goland-darcula-color-theme.json"
+                "path": "./themes/goland-dark-color-theme.json"
             }
         ]
     }
