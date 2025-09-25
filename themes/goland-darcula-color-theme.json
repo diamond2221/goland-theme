@@ -1,0 +1,155 @@
+{
+  "name": "Goland Darcula",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#313335",
+    "editor.foreground": "#A9B7C6",
+    "editorCursor.foreground": "#A9B7C6",
+    "editor.lineHighlightBackground": "#3C3F41",
+    "editor.selectionBackground": "#214283",
+    "editor.inactiveSelectionBackground": "#21428399",
+    "editorIndentGuide.background": "#3C3F41",
+    "editorIndentGuide.activeBackground": "#606366",
+    "editorWhitespace.foreground": "#3C3F41",
+    "editorBracketMatch.background": "#4B6EAF",
+    "editorBracketMatch.border": "#A9B7C6",
+    "editorGutter.background": "#313335",
+    "editorGutter.modifiedBackground": "#6897BB",
+    "editorGutter.addedBackground": "#A9B7C6",
+    "editorGutter.deletedBackground": "#FF9800",
+    "sideBar.background": "#313335",
+    "sideBar.foreground": "#A9B7C6",
+    "activityBar.background": "#313335",
+    "activityBar.foreground": "#A9B7C6",
+    "statusBar.background": "#313335",
+    "statusBar.foreground": "#A9B7C6",
+    "tab.activeBackground": "#3C3F41",
+    "tab.inactiveBackground": "#313335",
+    "tab.activeForeground": "#A9B7C6",
+    "tab.inactiveForeground": "#606366"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#607880",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#FF9800"
+      }
+    },
+    {
+      "scope": ["string", "constant.other.symbol"],
+      "settings": {
+        "foreground": "#A5C261"
+      }
+    },
+    {
+      "scope": ["variable", "identifier", "meta.object-literal.key"],
+      "settings": {
+        "foreground": "#A9B7C6"
+      }
+    },
+    {
+      "scope": ["constant.numeric", "constant.language.boolean"],
+      "settings": {
+        "foreground": "#75B5FF"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function", "meta.function-call"],
+      "settings": {
+        "foreground": "#FFD866"
+      }
+    },
+    {
+      "scope": ["entity.name.type", "support.type", "storage.type.class"],
+      "settings": {
+        "foreground": "#B77EE0"
+      }
+    },
+    {
+      "scope": ["meta.class", "meta.interface", "meta.struct"],
+      "settings": {
+        "foreground": "#B77EE0"
+      }
+    },
+    {
+      "scope": ["punctuation.separator", "punctuation.terminator"],
+      "settings": {
+        "foreground": "#A9B7C6"
+      }
+    },
+    {
+      "scope": ["entity.name.tag", "support.class.component"],
+      "settings": {
+        "foreground": "#FFD866"
+      }
+    },
+    {
+      "scope": ["meta.tag.attributes", "entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#FF9800"
+      }
+    },
+    {
+      "scope": ["constant.character.escape"],
+      "settings": {
+        "foreground": "#75B5FF"
+      }
+    },
+    {
+      "scope": ["source.json meta.structure.dictionary.json support.type.property-name.json"],
+      "settings": {
+        "foreground": "#FF9800"
+      }
+    },
+    {
+      "scope": ["source.css support.type.property-name", "source.scss support.type.property-name", "source.less support.type.property-name"],
+      "settings": {
+        "foreground": "#FF9800"
+      }
+    },
+    {
+      "scope": ["source.css support.constant.property-value", "source.scss support.constant.property-value", "source.less support.constant.property-value"],
+      "settings": {
+        "foreground": "#A5C261"
+      }
+    },
+    {
+      "scope": ["source.go keyword.package"],
+      "settings": {
+        "foreground": "#FF9800"
+      }
+    },
+    {
+      "scope": ["source.go entity.name.function"],
+      "settings": {
+        "foreground": "#FFD866"
+      }
+    },
+    {
+      "scope": ["source.tsx entity.name.tag", "source.jsx entity.name.tag"],
+      "settings": {
+        "foreground": "#FFD866"
+      }
+    },
+    {
+      "scope": ["source.vue entity.name.tag", "source.vue support.attribute.vue"],
+      "settings": {
+        "foreground": "#FF9800"
+      }
+    },
+    {
+      "scope": ["invalid", "invalid.illegal"],
+      "settings": {
+        "foreground": "#FFFFFF",
+        "background": "#FF0000"
+      }
+    }
+  ]
+}
