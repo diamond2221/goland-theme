@@ -3,7 +3,7 @@
     "displayName": "Goland Dark Theme",
     "description": "一款高度还原 JetBrains Goland Dark 深色配色风格的 VS Code 主题，支持 Go、TypeScript、JavaScript、Java、HTML、CSS/SCSS/Less、Vue、JSON、React (JSX/TSX) 的全面语法高亮。",
     "author": "diamond2221",
-    "repository": "https://github.com/diamond2221/goland-dark-theme",
+    "repository": "https://github.com/diamond2221/goland-theme",
     "version": "1.0.0",
     "publisher": "diamond2221",
     "engines": {
